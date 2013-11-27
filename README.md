@@ -1,0 +1,13 @@
+# Phplist Webservice
+
+Upload this file in your phplist directory on server (eg. /var/www/html/phplist/LCsub.php)
+set following things
+ $db_host = "localhost";
+ $db_username = "dbusername";
+ $db_password = "dbpassword";
+
+ $default_lid = "1";
+ $domain = "http://mailer.example.com/";
+ $admin_username = "admin-username";
+ $admin_password = "admin-login-password";
+ $p = "password-for-web-service";
