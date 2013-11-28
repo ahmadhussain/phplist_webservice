@@ -23,7 +23,7 @@ $lid = $_GET["lid"];
 $unsubscribe = $_GET["unsubscribe"];
 
 
-if( $_GET["password"] != $p ) {
+if( $_GET["passwd"] != $p ) {
   printf("ERROR: invalid password");
   return (0);
 }
